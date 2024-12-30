@@ -5,9 +5,9 @@ import java.sql.SQLException;
 
 public class TestMySQLConnection {
     public static void main(String[] args) {
-        String url = "jdbc:mysql://127.0.0.1:3306/a02";
-        String user = "root";
-        String password = "Root1234";
+        String url = "jdbc:mysql://<host>:3306/<database_name>";
+        String user = "<user>";
+        String password = "<password>";    
 
         try {
             Connection connection = DriverManager.getConnection(url, user, password);
