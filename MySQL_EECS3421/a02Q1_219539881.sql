@@ -78,7 +78,7 @@ insert into enrollment values (2, 'CS348', 'F2023', 1, 55);
 
 SELECT * FROM class;
 
-/* Syed Ali Raza Rizvi - 219539881 */
+/* Syed Ali Raza Rizvi - [student_number] */
 use a02;
 
 -- Query1 code after this
