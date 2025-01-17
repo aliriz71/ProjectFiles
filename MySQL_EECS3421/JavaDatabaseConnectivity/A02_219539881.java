@@ -9,8 +9,8 @@ import java.sql.Statement;
 public class A02_219539881 { 
 
     private static final String URL = "jdbc:mysql://127.0.0.1:3306/a02";
-    private static final String USER = "root";
-    private static final String PASSWORD = "Root1234";
+    private static final String USER = "[user]";
+    private static final String PASSWORD = "[password]";
     private static final String CURRENT_TERM = "S2024";
 
     public static void main(String[] args) 
